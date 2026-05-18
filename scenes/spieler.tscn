@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://dceq2u3005014"]
+
+[ext_resource type="Script" uid="uid://cyiuse1my3l32" path="res://scripts/spieler.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://d1ae7twpflcas" path="res://assets/spieler.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://snkvxbv84xan" path="res://assets/spieler_boost.png" id="3"]
+
+[node name="Spieler" type="Node2D" unique_id=2080708905]
+script = ExtResource("1")
+
+[node name="SpriteNormal" type="Sprite2D" parent="." unique_id=93045444]
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("2")
+
+[node name="SpriteBoost" type="Sprite2D" parent="." unique_id=1821848542]
+visible = false
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("3")
+
+[node name="SchussSound" type="AudioStreamPlayer" parent="." unique_id=1600952249]
+volume_db = -4.0

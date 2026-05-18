@@ -1,0 +1,85 @@
+[gd_scene format=3 uid="uid://bg6x1dnjubkf2"]
+
+[ext_resource type="Script" uid="uid://c54w5l8lxpn33" path="res://scripts/haupt_spiel.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://b04d1tr0ngijv" path="res://assets/bg/hintergrund.png" id="2"]
+
+[node name="HauptSpiel" type="Node2D" unique_id=1198890753]
+script = ExtResource("1")
+
+[node name="Hintergrund" type="TextureRect" parent="." unique_id=242182555]
+z_index = -10
+texture_repeat = 2
+offset_right = 480.0
+offset_bottom = 720.0
+texture = ExtResource("2")
+stretch_mode = 1
+
+[node name="SpielerLayer" type="Node2D" parent="." unique_id=765780899]
+
+[node name="GegnerLayer" type="Node2D" parent="." unique_id=86473247]
+
+[node name="GeschossLayer" type="Node2D" parent="." unique_id=122534912]
+
+[node name="EffektLayer" type="Node2D" parent="." unique_id=623875081]
+
+[node name="UI" type="CanvasLayer" parent="." unique_id=1914358526]
+
+[node name="PunkteLabel" type="Label" parent="UI" unique_id=1045094162]
+offset_left = 10.0
+offset_top = 10.0
+offset_right = 300.0
+offset_bottom = 45.0
+theme_override_font_sizes/font_size = 22
+text = "Punkte: 0"
+
+[node name="LebenLabel" type="Label" parent="UI" unique_id=970753079]
+offset_left = 340.0
+offset_top = 10.0
+offset_right = 470.0
+offset_bottom = 45.0
+theme_override_font_sizes/font_size = 22
+text = "❤❤❤"
+horizontal_alignment = 2
+
+[node name="WelleLabel" type="Label" parent="UI" unique_id=923396243]
+offset_left = 140.0
+offset_top = 10.0
+offset_right = 340.0
+offset_bottom = 45.0
+theme_override_font_sizes/font_size = 22
+text = "Welle 1"
+horizontal_alignment = 1
+
+[node name="GameOverPanel" type="ColorRect" parent="UI" unique_id=84427745]
+visible = false
+offset_right = 480.0
+offset_bottom = 720.0
+color = Color(0, 0, 0, 0.75)
+
+[node name="TitelLabel" type="Label" parent="UI/GameOverPanel" unique_id=62875863]
+layout_mode = 0
+offset_top = 240.0
+offset_right = 480.0
+offset_bottom = 310.0
+theme_override_colors/font_color = Color(1, 0.2, 0.2, 1)
+theme_override_font_sizes/font_size = 52
+text = "GAME OVER"
+horizontal_alignment = 1
+
+[node name="PunkteEndLabel" type="Label" parent="UI/GameOverPanel" unique_id=335719945]
+layout_mode = 0
+offset_top = 320.0
+offset_right = 480.0
+offset_bottom = 360.0
+theme_override_font_sizes/font_size = 28
+text = "Punkte: 0"
+horizontal_alignment = 1
+
+[node name="NeuStartBtn" type="Button" parent="UI/GameOverPanel" unique_id=4558415]
+layout_mode = 0
+offset_left = 140.0
+offset_top = 390.0
+offset_right = 340.0
+offset_bottom = 440.0
+theme_override_font_sizes/font_size = 24
+text = "Neu starten"
