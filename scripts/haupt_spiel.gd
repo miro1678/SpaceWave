@@ -595,7 +595,7 @@ func _game_over():
 
 func _ui_update():
 	punkte_label.text = "Punkte: %d" % punkte
-	leben_label.text  = "❤".repeat(leben)
+	leben_label.text  = "♥".repeat(leben)
 	welle_label.text  = "Welle %d" % welle
 
 func _explosion_bei(pos: Vector2, farbe: Color, typ: String = "gegner"):
