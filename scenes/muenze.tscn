@@ -1,35 +1,35 @@
-[gd_scene load_steps=3 format=3]
+[gd_scene format=3 uid="uid://cutjmy2mf7euq"]
 
-[ext_resource type="Script"    path="res://scripts/muenze.gd"             id="1"]
-[ext_resource type="Texture2D" path="res://assets/powerups/muenze.png"    id="2"]
+[ext_resource type="Script" uid="uid://bol51vmjin2vl" path="res://scripts/muenze.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://cv21sakl1ws4k" path="res://assets/powerups/muenze.png" id="2"]
 
-[node name="Muenze" type="Node2D"]
+[node name="Muenze" type="Node2D" unique_id=1622518300]
 script = ExtResource("1")
 
-[node name="Sprite" type="Sprite2D" parent="."]
-texture = ExtResource("2")
+[node name="Sprite" type="Sprite2D" parent="." unique_id=524149370]
 scale = Vector2(0.5, 0.5)
+texture = ExtResource("2")
 
-[node name="Totenkopf" type="Label" parent="."]
+[node name="Totenkopf" type="Label" parent="." unique_id=1282272676]
+visible = false
 offset_left = -16.0
 offset_top = -20.0
 offset_right = 16.0
 offset_bottom = 12.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 28
 text = "☠"
 horizontal_alignment = 1
 vertical_alignment = 1
-theme_override_font_sizes/font_size = 28
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-visible = false
 
-[node name="Stern" type="Label" parent="."]
+[node name="Stern" type="Label" parent="." unique_id=1023676214]
+visible = false
 offset_left = -16.0
 offset_top = -20.0
 offset_right = 16.0
 offset_bottom = 12.0
+theme_override_colors/font_color = Color(0.6, 0.3, 0, 1)
+theme_override_font_sizes/font_size = 28
 text = "★"
 horizontal_alignment = 1
 vertical_alignment = 1
-theme_override_font_sizes/font_size = 28
-theme_override_colors/font_color = Color(0.6, 0.3, 0, 1)
-visible = false
