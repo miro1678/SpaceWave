@@ -1,10 +1,13 @@
-name: Deploy SpaceWave zu Cloudflare
+name: Deploy SpaceWave zu GitHub Pages
 
 on:
   push:
     branches:
       - main
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build-and-deploy:
@@ -37,12 +40,8 @@ jobs:
           mkdir -p dist
           ./godot --headless --export-release "Web" ./dist/index.html
 
-      - name: dist-Inhalt prüfen
-        run: ls -la dist/
-
-      - name: Zu Cloudflare deployen
-        uses: cloudflare/wrangler-action@v3
+      - name: Zu GitHub Pages deployen
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: deploy
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
