@@ -1,11 +1,11 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1779193234
-::res://assets/::1779193194
+::res://::1779260988
+::res://assets/::1779194551
 spieler.png::CompressedTexture2D::8984473031662165282::315525600::315525600::1::::<><><>0<>0<>194a92aea5630dfc5811fc4b5294b247<>res://.godot/imported/spieler.png-45847d8061c70112b9a3e7020fff738c.ctex::
 spieler_boost.png::CompressedTexture2D::1290881978468294593::315525600::315525600::1::::<><><>0<>0<>2f40baef95a5a212ae34552c9ea0e13d<>res://.godot/imported/spieler_boost.png-8742ea4bbfd8cb7d6a54260e6bfc7028.ctex::
-::res://assets/bg/::1779193196
+::res://assets/bg/::1779194553
 hintergrund.png::CompressedTexture2D::4201238336490302023::315525600::315525600::1::::<><><>0<>0<>9acfddcebec8557dc8797c37ee5995f1<>res://.godot/imported/hintergrund.png-a6d0fd9599f36258d815affef10099e1.ctex::
-::res://assets/effects/::1779193195
+::res://assets/effects/::1779194551
 fire00.png::CompressedTexture2D::2627971280549572492::315525600::315525600::1::::<><><>0<>0<>c420e1dbaf6625adde9016be379f23dc<>res://.godot/imported/fire00.png-93917307438e8313b9df2add5da5d22f.ctex::
 fire01.png::CompressedTexture2D::105847740234218421::315525600::315525600::1::::<><><>0<>0<>abf13fa273c4e1b8029af30b905ffb3e<>res://.godot/imported/fire01.png-d27114ad3475c6c774a30a828e96d9e2.ctex::
 fire02.png::CompressedTexture2D::1736747806280898164::315525600::315525600::1::::<><><>0<>0<>e31a333103f5ebafbf8c23b52eafb82d<>res://.godot/imported/fire02.png-ab51f035da17d01559cdb7e37753e0c3.ctex::
@@ -16,12 +16,12 @@ fire06.png::CompressedTexture2D::8263684981006153978::315525600::315525600::1:::
 fire07.png::CompressedTexture2D::7713517671122010588::315525600::315525600::1::::<><><>0<>0<>1b3e9d9987a4b5d66ad23931518016ed<>res://.godot/imported/fire07.png-feaf1da8f84a8ac9ed4553214a40ade1.ctex::
 fire08.png::CompressedTexture2D::2526825771765709208::315525600::315525600::1::::<><><>0<>0<>8adc375eed7a2f7c1e7e35edc47d5848<>res://.godot/imported/fire08.png-c362c0e87c33d94a521342b38843c2d1.ctex::
 fire09.png::CompressedTexture2D::2017272744294783066::315525600::315525600::1::::<><><>0<>0<>02619869c2c933b5d87be220b3263db7<>res://.godot/imported/fire09.png-4ec41cf04244fe179e8d49f65c3cdc81.ctex::
-::res://assets/effects/explosion pack 1/::1779193195
+::res://assets/effects/explosion pack 1/::1779194551
 ::res://assets/effects/explosion pack 1/Bonus/::1779182636
 ::res://assets/effects/explosion pack 1/Bonus/From explosions pack 2/::1779182636
-::res://assets/effects/explosion pack 1/Bonus/From explosions pack 2/explosion-b/::1779193195
+::res://assets/effects/explosion pack 1/Bonus/From explosions pack 2/explosion-b/::1779194551
 explosion-b.png::CompressedTexture2D::8050667937276739247::315525600::315525600::1::::<><><>0<>0<>d59f7fcb348d3d1c3d373a66d1b040e0<>res://.godot/imported/explosion-b.png-23b9e3619cff3fbce292df360c9a1b4d.ctex::
-::res://assets/effects/explosion pack 1/Bonus/From explosions pack 2/explosion-b/Sprites/::1779193195
+::res://assets/effects/explosion pack 1/Bonus/From explosions pack 2/explosion-b/Sprites/::1779194551
 explosion-b1.png::CompressedTexture2D::3180822144462186230::315525600::315525600::1::::<><><>0<>0<>2d432669ddc9c55ab9e4fafef23fd834<>res://.godot/imported/explosion-b1.png-dd32241476be55db2f49a84582b41513.ctex::
 explosion-b2.png::CompressedTexture2D::736499209916245594::315525600::315525600::1::::<><><>0<>0<>27253038162d4c6d91328f658e6a225f<>res://.godot/imported/explosion-b2.png-073305f6c13ac8edb5d89e1c5532a70c.ctex::
 explosion-b3.png::CompressedTexture2D::7064511395548226391::315525600::315525600::1::::<><><>0<>0<>87396dce2beaf4b59fefa3112f3df9ea<>res://.godot/imported/explosion-b3.png-c8e983f78acba319818e39c1ae70c28c.ctex::
@@ -35,9 +35,9 @@ explosion-b10.png::CompressedTexture2D::3098076149798271275::315525600::31552560
 explosion-b11.png::CompressedTexture2D::7759012623949421026::315525600::315525600::1::::<><><>0<>0<>7be1f29213e7c227b86f8fa51378883b<>res://.godot/imported/explosion-b11.png-36e02dd013b3545c6cd6d93e16d33027.ctex::
 explosion-b12.png::CompressedTexture2D::8038429865285508302::315525600::315525600::1::::<><><>0<>0<>4a9088b8b1cc9bdc6a8bc9d74f097daf<>res://.godot/imported/explosion-b12.png-79eec26f83c8c7603f870d356a162ba1.ctex::
 ::res://assets/effects/explosion pack 1/Explosions pack/::1779182636
-::res://assets/effects/explosion pack 1/Explosions pack/explosion-1-a/::1779193196
+::res://assets/effects/explosion pack 1/Explosions pack/explosion-1-a/::1779194552
 spritesheet.png::CompressedTexture2D::4167974028866432590::315525600::315525600::1::::<><><>0<>0<>4aa82ca541ec7c81602dcf5291150fbd<>res://.godot/imported/spritesheet.png-0236bca6c1133afa31af5e881a84e65b.ctex::
-::res://assets/effects/explosion pack 1/Explosions pack/explosion-1-a/Sprites/::1779193196
+::res://assets/effects/explosion pack 1/Explosions pack/explosion-1-a/Sprites/::1779194552
 explosion-1.png::CompressedTexture2D::6928185939323766882::315525600::315525600::1::::<><><>0<>0<>184e921f7d3538d0047cf464b2ca4502<>res://.godot/imported/explosion-1.png-d248cf5633e1cff87944779a91052c7d.ctex::
 explosion-2.png::CompressedTexture2D::2737925987965383864::315525600::315525600::1::::<><><>0<>0<>df02b2f8afafd43413c4e9634f5d0518<>res://.godot/imported/explosion-2.png-14d88463936317bc463fbdfa088bfc6f.ctex::
 explosion-3.png::CompressedTexture2D::1269148725676743853::315525600::315525600::1::::<><><>0<>0<>88b7d216eab956e96e6f8a1d7eee1a29<>res://.godot/imported/explosion-3.png-d57e0a4e8c575c6e72fd2b57ce5522f4.ctex::
@@ -46,9 +46,9 @@ explosion-5.png::CompressedTexture2D::3998349983248788301::315525600::315525600:
 explosion-6.png::CompressedTexture2D::1398296528774383430::315525600::315525600::1::::<><><>0<>0<>8795124908245a77ab24984da843e7eb<>res://.godot/imported/explosion-6.png-e8207c439d17d242f672d1c27a4e5671.ctex::
 explosion-7.png::CompressedTexture2D::874531669835881784::315525600::315525600::1::::<><><>0<>0<>c9a5695add8507f47d5c350582acad18<>res://.godot/imported/explosion-7.png-a88575bfa806a8bf415e5033a60c3bfc.ctex::
 explosion-8.png::CompressedTexture2D::6260990563543511873::315525600::315525600::1::::<><><>0<>0<>383fd7dab19f2d5d942e74b46851546a<>res://.godot/imported/explosion-8.png-a66e30b73f4cb9100204294f5e229328.ctex::
-::res://assets/effects/explosion pack 1/Explosions pack/explosion-1-b/::1779193195
+::res://assets/effects/explosion pack 1/Explosions pack/explosion-1-b/::1779194552
 spritesheet.png::CompressedTexture2D::1967253317178193928::315525600::315525600::1::::<><><>0<>0<>0ca619ada36f0f32f1037611be7807da<>res://.godot/imported/spritesheet.png-a0c5ae33801e4814767b5f991d19536e.ctex::
-::res://assets/effects/explosion pack 1/Explosions pack/explosion-1-b/Sprites/::1779193195
+::res://assets/effects/explosion pack 1/Explosions pack/explosion-1-b/Sprites/::1779194552
 explosion-1-b-1.png::CompressedTexture2D::2321536670244322451::315525600::315525600::1::::<><><>0<>0<>c459903c1d6ab7fa35c153b414cf9f48<>res://.godot/imported/explosion-1-b-1.png-be7b9230af26dd21184d1869ab281b5b.ctex::
 explosion-1-b-2.png::CompressedTexture2D::5086405441439913825::315525600::315525600::1::::<><><>0<>0<>d22f51d3794eeed3bbc9bb898ee90d7b<>res://.godot/imported/explosion-1-b-2.png-e8ba03aa3681184c3809df3979beba61.ctex::
 explosion-1-b-3.png::CompressedTexture2D::2433331747031799113::315525600::315525600::1::::<><><>0<>0<>1806080c3c34675017bdc0c65dd3b5b0<>res://.godot/imported/explosion-1-b-3.png-ed2d5142f0ee86868ea861b23d2980a2.ctex::
@@ -57,9 +57,9 @@ explosion-1-b-5.png::CompressedTexture2D::542434676216244699::315525600::3155256
 explosion-1-b-6.png::CompressedTexture2D::4075369639645634502::315525600::315525600::1::::<><><>0<>0<>0ada8a40ef588a6707ccffd5280cb69b<>res://.godot/imported/explosion-1-b-6.png-df61927222464cef0a45e509ad9f016f.ctex::
 explosion-1-b-7.png::CompressedTexture2D::2628930277272409975::315525600::315525600::1::::<><><>0<>0<>af580614a6753d2043abb5a9f884f9d2<>res://.godot/imported/explosion-1-b-7.png-4cb4e1a28e3726af238fd7b2ff2dd3da.ctex::
 explosion-1-b-8.png::CompressedTexture2D::584524439040092937::315525600::315525600::1::::<><><>0<>0<>352109cc7bcc7e24c3baac1846832af6<>res://.godot/imported/explosion-1-b-8.png-65614193cf7cfbc895b0622f086c0db0.ctex::
-::res://assets/effects/explosion pack 1/Explosions pack/explosion-1-c/::1779193195
+::res://assets/effects/explosion pack 1/Explosions pack/explosion-1-c/::1779194552
 spritesheet.png::CompressedTexture2D::2842318131030663111::315525600::315525600::1::::<><><>0<>0<>af7d257962ee836d134308eee05219c3<>res://.godot/imported/spritesheet.png-e9c744f7bb14259851401dad37d66c77.ctex::
-::res://assets/effects/explosion pack 1/Explosions pack/explosion-1-c/Sprites/::1779193195
+::res://assets/effects/explosion pack 1/Explosions pack/explosion-1-c/Sprites/::1779194552
 explosion-c1.png::CompressedTexture2D::141755289496974248::315525600::315525600::1::::<><><>0<>0<>65309ddd696c110ae6a3308631e299ab<>res://.godot/imported/explosion-c1.png-1fd8525326551da33018cfbb77d7e054.ctex::
 explosion-c2.png::CompressedTexture2D::8454267159531384582::315525600::315525600::1::::<><><>0<>0<>87003909a8fe0e8ff0086996724fe8c4<>res://.godot/imported/explosion-c2.png-7af967675efefed4efe8eb09f6c75d7a.ctex::
 explosion-c3.png::CompressedTexture2D::4470887156900782276::315525600::315525600::1::::<><><>0<>0<>7977548a224b4b11bfe37c2255208ca4<>res://.godot/imported/explosion-c3.png-d9b247ba79756959c19f406370263898.ctex::
@@ -70,9 +70,9 @@ explosion-c7.png::CompressedTexture2D::692911458317578402::315525600::315525600:
 explosion-c8.png::CompressedTexture2D::8010345121878034985::315525600::315525600::1::::<><><>0<>0<>37e5f63b9d62fed306acbc3d98f0d4f1<>res://.godot/imported/explosion-c8.png-c141c4d0b1579747b73de2c6cce4b572.ctex::
 explosion-c9.png::CompressedTexture2D::6098413806510947504::315525600::315525600::1::::<><><>0<>0<>2824b5ab0d75725ff7018c5eb344dfc6<>res://.godot/imported/explosion-c9.png-c3ca82d3b2cd2180fe966a24a800f52c.ctex::
 explosion-c10.png::CompressedTexture2D::695804495481896980::315525600::315525600::1::::<><><>0<>0<>218270e645f302f4ed699bd24d3bfcee<>res://.godot/imported/explosion-c10.png-311468a2473271bc03c3ccd6cbd983eb.ctex::
-::res://assets/effects/explosion pack 1/Explosions pack/explosion-1-d/::1779193195
+::res://assets/effects/explosion pack 1/Explosions pack/explosion-1-d/::1779194551
 spritsheet.png::CompressedTexture2D::251583516198037523::315525600::315525600::1::::<><><>0<>0<>324d44c488df4e8ad7351d9a8ae7b4d2<>res://.godot/imported/spritsheet.png-dbca37dbab9528963c4ff600551ed84f.ctex::
-::res://assets/effects/explosion pack 1/Explosions pack/explosion-1-d/Sprites/::1779193195
+::res://assets/effects/explosion pack 1/Explosions pack/explosion-1-d/Sprites/::1779194552
 explosion-d1.png::CompressedTexture2D::4864742754751502569::315525600::315525600::1::::<><><>0<>0<>d695499af58ade6cb7deb0b1b81eedbd<>res://.godot/imported/explosion-d1.png-b5f5c5615238af0d0264dd4da3ee32fc.ctex::
 explosion-d2.png::CompressedTexture2D::5698092768886340459::315525600::315525600::1::::<><><>0<>0<>f8243506b42387f482db7051638d8dfc<>res://.godot/imported/explosion-d2.png-b5ca6ce3853bbb4c6d96fa81c4e035ba.ctex::
 explosion-d3.png::CompressedTexture2D::56095036074579897::315525600::315525600::1::::<><><>0<>0<>b53f7509542f009e1ab577738c7fa9be<>res://.godot/imported/explosion-d3.png-7ad81e52dabd7c812e6697fb2a02c265.ctex::
@@ -85,9 +85,9 @@ explosion-d9.png::CompressedTexture2D::6065562218280997458::315525600::315525600
 explosion-d10.png::CompressedTexture2D::4054227468339583607::315525600::315525600::1::::<><><>0<>0<>4df2ab99d3eaee92a0c3c162ca051179<>res://.godot/imported/explosion-d10.png-cc5b8167fffe970989d9013bb056db74.ctex::
 explosion-d11.png::CompressedTexture2D::1512687818953455673::315525600::315525600::1::::<><><>0<>0<>2554198f1ca74cc31733ac8f5e2f570a<>res://.godot/imported/explosion-d11.png-7a2dddefb697037d55ca2b542d7abf1a.ctex::
 explosion-d12.png::CompressedTexture2D::5785850665798287508::315525600::315525600::1::::<><><>0<>0<>5863c3477cfa542223fc40816c9672b3<>res://.godot/imported/explosion-d12.png-1c115b48cc7f0b020dfc97a7798d22b4.ctex::
-::res://assets/effects/explosion pack 1/Explosions pack/explosion-1-e/::1779193196
+::res://assets/effects/explosion pack 1/Explosions pack/explosion-1-e/::1779194552
 explosion-5.png::CompressedTexture2D::377006643798317768::315525600::315525600::1::::<><><>0<>0<>acc3827c0af70e33471fc260be687f69<>res://.godot/imported/explosion-5.png-92920b8afe332649d55861c4c284930c.ctex::
-::res://assets/effects/explosion pack 1/Explosions pack/explosion-1-e/Sprites/::1779193196
+::res://assets/effects/explosion pack 1/Explosions pack/explosion-1-e/Sprites/::1779194553
 explosion-e1.png::CompressedTexture2D::7108020980073832199::315525600::315525600::1::::<><><>0<>0<>ddad87f9c4b48fb1416f1fa902cd8c45<>res://.godot/imported/explosion-e1.png-e78c52bfcf3a4322f2ed0820885cd6e4.ctex::
 explosion-e2.png::CompressedTexture2D::7766852706094262908::315525600::315525600::1::::<><><>0<>0<>e104b4d95505ee79e44bf46ee5af3956<>res://.godot/imported/explosion-e2.png-3bff5ebbe3d7d29630f7b3cd4f498259.ctex::
 explosion-e3.png::CompressedTexture2D::213191530591135256::315525600::315525600::1::::<><><>0<>0<>c5d2a258253363f4569487c82f2c08fd<>res://.godot/imported/explosion-e3.png-b44ef2286a1efd3cb82f17c4c7b69b47.ctex::
@@ -110,9 +110,9 @@ explosion-e19.png::CompressedTexture2D::4494733948907847435::315525600::31552560
 explosion-e20.png::CompressedTexture2D::4531622823112875865::315525600::315525600::1::::<><><>0<>0<>7ac1f684384e36650003ce8bfb19878a<>res://.godot/imported/explosion-e20.png-ea3ac85609c98c01da5b9f6ba46c3e6f.ctex::
 explosion-e21.png::CompressedTexture2D::1779013715887503508::315525600::315525600::1::::<><><>0<>0<>851621b875c6fbff931194739ed64299<>res://.godot/imported/explosion-e21.png-4ecc9ae5c32c0d4b5f4659497f229c7a.ctex::
 explosion-e22.png::CompressedTexture2D::2797697874707389573::315525600::315525600::1::::<><><>0<>0<>24e8bd14542066dff4b37363f81f392a<>res://.godot/imported/explosion-e22.png-bd26ea94454bf30f637f2b665a308f82.ctex::
-::res://assets/effects/explosion pack 1/Explosions pack/explosion-1-f/::1779193195
+::res://assets/effects/explosion pack 1/Explosions pack/explosion-1-f/::1779194552
 Sprites.png::CompressedTexture2D::2791687748330373115::315525600::315525600::1::::<><><>0<>0<>f8bc69e2ed6214d66c83b22b5166b620<>res://.godot/imported/Sprites.png-f1fc009bd78c7938035080bb8d0baec1.ctex::
-::res://assets/effects/explosion pack 1/Explosions pack/explosion-1-f/Sprites/::1779193195
+::res://assets/effects/explosion pack 1/Explosions pack/explosion-1-f/Sprites/::1779194552
 explosion-f1.png::CompressedTexture2D::8325032215134260369::315525600::315525600::1::::<><><>0<>0<>381c397d22790dd12ca4b17fd80ac7ad<>res://.godot/imported/explosion-f1.png-da844ae2e5258558e6455ab4921fba87.ctex::
 explosion-f2.png::CompressedTexture2D::8146843382569572516::315525600::315525600::1::::<><><>0<>0<>588c8c8b35d6f10e980670b2b0a97930<>res://.godot/imported/explosion-f2.png-3fbd485fabdf64fd3ee266f7eb0fe4e3.ctex::
 explosion-f3.png::CompressedTexture2D::3873687245467158519::315525600::315525600::1::::<><><>0<>0<>8c46930d65c96e375837a9aada9dce91<>res://.godot/imported/explosion-f3.png-998e9441c3feb9d517af7451e1c0a2aa.ctex::
@@ -121,9 +121,9 @@ explosion-f5.png::CompressedTexture2D::550781503566393029::315525600::315525600:
 explosion-f6.png::CompressedTexture2D::5806881247062847604::315525600::315525600::1::::<><><>0<>0<>94964855ad1eff939122b6dad62de3d2<>res://.godot/imported/explosion-f6.png-346e0675fe7a486e44c9630097a2b98c.ctex::
 explosion-f7.png::CompressedTexture2D::2978144641393149292::315525600::315525600::1::::<><><>0<>0<>52538ccb282e5b5c1cf26ccffcba70bd<>res://.godot/imported/explosion-f7.png-3e4a67c79306613485e5f8fe5eddeda8.ctex::
 explosion-f8.png::CompressedTexture2D::5776425635456164420::315525600::315525600::1::::<><><>0<>0<>c34589484dd5a149a0a07d29c9fc991d<>res://.godot/imported/explosion-f8.png-c6f8964f297c33d878c4167f1a2ce986.ctex::
-::res://assets/effects/explosion pack 1/Explosions pack/explosion-1-g/::1779193196
+::res://assets/effects/explosion pack 1/Explosions pack/explosion-1-g/::1779194552
 spritesheet.png::CompressedTexture2D::8110619557287958564::315525600::315525600::1::::<><><>0<>0<>e338e9e4c41b07ad3aebcf395153ca2c<>res://.godot/imported/spritesheet.png-da4e071cfc4ea0afce12ab045b709c28.ctex::
-::res://assets/effects/explosion pack 1/Explosions pack/explosion-1-g/Sprites/::1779193196
+::res://assets/effects/explosion pack 1/Explosions pack/explosion-1-g/Sprites/::1779194552
 frame1.png::CompressedTexture2D::6027647559915959257::315525600::315525600::1::::<><><>0<>0<>2df95fea5d9a7d89f2ff9ef49eeceb1e<>res://.godot/imported/frame1.png-90cf5c10c178a1a15a3a035261e6a982.ctex::
 frame2.png::CompressedTexture2D::8222049831227880885::315525600::315525600::1::::<><><>0<>0<>a37c5b249c7e0767d12311aa572417f1<>res://.godot/imported/frame2.png-772be810dcce522551135fce88015fcb.ctex::
 frame3.png::CompressedTexture2D::1802377898907527319::315525600::315525600::1::::<><><>0<>0<>09ead03deea5852f4bc64cb5c31a401e<>res://.godot/imported/frame3.png-4fb1cea8da29fb819e92c695887164c1.ctex::
@@ -131,12 +131,12 @@ frame4.png::CompressedTexture2D::7101649381433528817::315525600::315525600::1:::
 frame5.png::CompressedTexture2D::636833510559745359::315525600::315525600::1::::<><><>0<>0<>772b3b961a98a616efa1935443fca714<>res://.godot/imported/frame5.png-148871cc4a62f0ed97c5a4ad773270f0.ctex::
 frame6.png::CompressedTexture2D::3077176058648923765::315525600::315525600::1::::<><><>0<>0<>01d6c33010574c7dd50a883d221063bc<>res://.godot/imported/frame6.png-f4282babda84e4faae7b97465ba9f19b.ctex::
 frame7.png::CompressedTexture2D::4611867398128873345::315525600::315525600::1::::<><><>0<>0<>07b604dfd4ba7b2dd52adf6d11a6cc95<>res://.godot/imported/frame7.png-5d1012c1179794de880fff089ed2a6fd.ctex::
-::res://assets/enemies/::1779193196
+::res://assets/enemies/::1779194553
 enemy1.png::CompressedTexture2D::5889423378564750157::315525600::315525600::1::::<><><>0<>0<>97edcc20f51cfd7002a8bbb318bb0389<>res://.godot/imported/enemy1.png-7425354088e2b47c2e2de4e5d2fa4e2c.ctex::
 enemy2.png::CompressedTexture2D::6686909322830171890::315525600::315525600::1::::<><><>0<>0<>56164219385783267a75aab04c04bad7<>res://.godot/imported/enemy2.png-7e2192985552b344f2b795f4b0ba3ab7.ctex::
 enemy3.png::CompressedTexture2D::6103336755547082561::315525600::315525600::1::::<><><>0<>0<>604609bdf33c62dd792f9a2cc37a8f0f<>res://.godot/imported/enemy3.png-ec27a36f7389b49214002af9fc6f4164.ctex::
 ::res://assets/explosions/::1779171670
-::res://assets/explosions/gegner/::1779193194
+::res://assets/explosions/gegner/::1779194551
 explosion-d1.png::CompressedTexture2D::4071169681869232110::315525600::315525600::1::::<><><>0<>0<>82b4fa172dddf8674920c203087ffd9d<>res://.godot/imported/explosion-d1.png-ed381f71d9f0a45b4663de65480b43f7.ctex::
 explosion-d2.png::CompressedTexture2D::2969627436745471391::315525600::315525600::1::::<><><>0<>0<>ffc5f1a335e39626479f04591127fd50<>res://.godot/imported/explosion-d2.png-481dfd8b8bdbb64cf9c51812656462d6.ctex::
 explosion-d3.png::CompressedTexture2D::1709748626318261542::315525600::315525600::1::::<><><>0<>0<>c60b421c9fa40b05951f20d17d341ac9<>res://.godot/imported/explosion-d3.png-323c44be10b87e44d38e8f9b84c9f57e.ctex::
@@ -149,7 +149,7 @@ explosion-d9.png::CompressedTexture2D::3286567257744963160::315525600::315525600
 explosion-d10.png::CompressedTexture2D::2407792186483863423::315525600::315525600::1::::<><><>0<>0<>10673ae7b55a2e778efda5ff680e9f06<>res://.godot/imported/explosion-d10.png-54875dc3a3b8a9bdd20777a3bce5f773.ctex::
 explosion-d11.png::CompressedTexture2D::2826068787124609194::315525600::315525600::1::::<><><>0<>0<>55d449bd77d7b04996f5a09e8f77392d<>res://.godot/imported/explosion-d11.png-a4e85eaacc157e6aa2e867b196b27259.ctex::
 explosion-d12.png::CompressedTexture2D::1445190437888134696::315525600::315525600::1::::<><><>0<>0<>159e36643f8d8ecf4a8b715d34ee9ee7<>res://.godot/imported/explosion-d12.png-9363a6a2c95f915b8df2b2ce28a3b21d.ctex::
-::res://assets/explosions/spieler/::1779193195
+::res://assets/explosions/spieler/::1779194551
 explosion-e1.png::CompressedTexture2D::5493080753132456142::315525600::315525600::1::::<><><>0<>0<>03f0b227a8bc868d71e6f63aebb4ab67<>res://.godot/imported/explosion-e1.png-d3d314a9a5b2b598754fb11493d5c7eb.ctex::
 explosion-e2.png::CompressedTexture2D::7339759884023213957::315525600::315525600::1::::<><><>0<>0<>4c6a0c1198fb549336a2b6d88e6615be<>res://.godot/imported/explosion-e2.png-4c18e5275a956872f2877ff21abf1c25.ctex::
 explosion-e3.png::CompressedTexture2D::3516367171354159436::315525600::315525600::1::::<><><>0<>0<>47b9ed935f42e33285177c1294ff7e0f<>res://.godot/imported/explosion-e3.png-7bfcd8a9965a29e061208be635423e53.ctex::
@@ -172,12 +172,12 @@ explosion-e19.png::CompressedTexture2D::1927704606334368861::315525600::31552560
 explosion-e20.png::CompressedTexture2D::1682054126676111792::315525600::315525600::1::::<><><>0<>0<>7f2217cc87666df37ff30d960bc928fe<>res://.godot/imported/explosion-e20.png-299c7bcec3994ad1a88d9fd41221a5db.ctex::
 explosion-e21.png::CompressedTexture2D::8555558897665683527::315525600::315525600::1::::<><><>0<>0<>93500e48d357a581a2a34fbe95dfc274<>res://.godot/imported/explosion-e21.png-ceb3334eda5ddeeb8f12766af18b39e7.ctex::
 explosion-e22.png::CompressedTexture2D::3954356768320434161::315525600::315525600::1::::<><><>0<>0<>8758f924357fd72cd08739e63ff756cf<>res://.godot/imported/explosion-e22.png-f2abd7c4260780f53d72f339872f1bfb.ctex::
-::res://assets/lasers/::1779193196
+::res://assets/lasers/::1779194553
 laser_gegner.png::CompressedTexture2D::8477193280147734438::315525600::315525600::1::::<><><>0<>0<>05dfd89da46bc9bbca21c6274b14b7b5<>res://.godot/imported/laser_gegner.png-79d1af047997312a3b86046b35136d7a.ctex::
 laser_spieler.png::CompressedTexture2D::5685412843351131575::315525600::315525600::1::::<><><>0<>0<>be6ea6244c6f1f7ce98e0f0be9b83612<>res://.godot/imported/laser_spieler.png-11af289420abf61adbb4e0ba8df0541e.ctex::
-::res://assets/powerups/::1779193195
+::res://assets/powerups/::1779194551
 muenze.png::CompressedTexture2D::6304156085230177372::315525600::315525600::1::::<><><>0<>0<>8ed02ba5ba6d213e66644c439061d293<>res://.godot/imported/muenze.png-cb80eb25ac6accd30e6c1a0d5a3abb53.ctex::
-::res://assets/sounds/::1779193196
+::res://assets/sounds/::1779194553
 game_over.wav::AudioStreamWAV::618818769021285763::315525600::315525600::1::::<><><>0<>0<>35740880196840253c65084430df7e46<>res://.godot/imported/game_over.wav-bda13a6665d024bb1867eeb8b5721454.sample::
 gegner_schuss.wav::AudioStreamWAV::9011495222877633503::315525600::315525600::1::::<><><>0<>0<>7042f3989944998b4977e489f4eab438<>res://.godot/imported/gegner_schuss.wav-d93906ee6da5db92ea76591d52ed8952.sample::
 gegner_treffer.wav::AudioStreamWAV::3074722905886738652::315525600::315525600::1::::<><><>0<>0<>338ab7c7d7a4c68acec6c7dcb819e52c<>res://.godot/imported/gegner_treffer.wav-712707fe8035a700092dbf6bce7c32e8.sample::
@@ -186,17 +186,17 @@ muenze.wav::AudioStreamWAV::4245292259198274492::315525600::315525600::1::::<><>
 spieler_schuss.wav::AudioStreamWAV::5916808012536197220::315525600::315525600::1::::<><><>0<>0<>fc172521ba3dc843a81cf58da2e67331<>res://.godot/imported/spieler_schuss.wav-232ce2f9e1a9341fa9fb5fd41da7f858.sample::
 spieler_treffer.wav::AudioStreamWAV::7009923167207444961::315525600::315525600::1::::<><><>0<>0<>703b3684ec8488c025e4a17cad479d72<>res://.godot/imported/spieler_treffer.wav-5e204907651fdb1acf42b7c7b5f08048.sample::
 ::res://assets/ui/::1778822820
-::res://scenes/::1779193196
+::res://scenes/::1779260953
 explosion.tscn::PackedScene::-1::315525600::0::1::::<><><>0<>0<><>::res://scripts/explosion.gd
 gegner.tscn::PackedScene::-1::315525600::0::1::::<><><>0<>0<><>::res://scripts/gegner.gd
 geschoss.tscn::PackedScene::-1::315525600::0::1::::<><><>0<>0<><>::res://scripts/geschoss.gd
 main.tscn::PackedScene::2872992555460508821::315525600::0::1::::<><><>0<>0<><>::uid://c54w5l8lxpn33::::res://scripts/haupt_spiel.gd<>uid://b04d1tr0ngijv::::res://assets/bg/hintergrund.png
-muenze.tscn::PackedScene::-1::1779185804::0::1::::<><><>0<>0<><>::res://scripts/muenze.gd<>res://assets/powerups/muenze.png
+muenze.tscn::PackedScene::4938078118871329070::1779260953::0::1::::<><><>0<>0<><>::uid://bol51vmjin2vl::::res://scripts/muenze.gd<>uid://cv21sakl1ws4k::::res://assets/powerups/muenze.png
 spieler.tscn::PackedScene::7308918032583332117::315525600::0::1::::<><><>0<>0<><>::uid://cyiuse1my3l32::::res://scripts/spieler.gd<>uid://d1ae7twpflcas::::res://assets/spieler.png<>uid://snkvxbv84xan::::res://assets/spieler_boost.png
-::res://scripts/::1779193199
+::res://scripts/::1779260953
 explosion.gd::GDScript::8722545476455697783::315525600::0::1::::<>Node2D<><>0<>0<><>::
 gegner.gd::GDScript::6990233599150255364::1779184406::0::1::::<>Node2D<><>0<>0<><>::
 geschoss.gd::GDScript::3532284871830548665::1779184424::0::1::::<>Node2D<><>0<>0<><>::
-haupt_spiel.gd::GDScript::6939763608319444496::1779185888::0::1::::<>Node2D<><>0<>0<><>::
-muenze.gd::GDScript::3393641712292891593::1779185832::0::1::::<>Node2D<><>0<>0<><>::
-spieler.gd::GDScript::6475135371713801695::1779185348::0::1::::<>Node2D<><>0<>0<><>::
+haupt_spiel.gd::GDScript::6939763608319444496::1779187056::0::1::::<>Node2D<><>0<>0<><>::
+muenze.gd::GDScript::3393641712292891593::1779260953::0::1::::<>RefCounted<><>0<>0<><>::
+spieler.gd::GDScript::6475135371713801695::1779186964::0::1::::<>Node2D<><>0<>0<><>::
