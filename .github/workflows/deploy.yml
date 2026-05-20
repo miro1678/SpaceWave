@@ -37,6 +37,9 @@ jobs:
           mkdir -p dist
           ./godot --headless --export-release "Web" ./dist/index.html
 
+      - name: dist-Inhalt prüfen
+        run: ls -la dist/
+
       - name: Zu Cloudflare deployen
         uses: cloudflare/wrangler-action@v3
         with:
