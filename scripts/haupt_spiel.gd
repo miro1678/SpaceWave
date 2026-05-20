@@ -71,9 +71,48 @@ func _ready():
 	muenzen_layer.name = "MuenzenLayer"
 	add_child(muenzen_layer)
 
+	_sternenfeld_erzeugen()
 	_status_labels_erzeugen()
 	_sounds_setup()
 	_starten()
+
+# ─── Bewegtes Partikel-Sternenfeld (wie in der Web-Version) ───────────────────
+# Drei Schichten: ferne kleine langsame Sterne bis nahe große schnelle Sterne.
+# Sterne entstehen oben über dem Bildschirm und fliegen nach unten.
+func _sternenfeld_erzeugen():
+	var stern_tex = load("res://assets/bg/stern.png")
+	# Schicht-Parameter: [Anzahl, Geschwindigkeit, Skalierung min, Skalierung max, Helligkeit]
+	var schichten = [
+		[40, 35.0, 0.04, 0.10, 0.45],   # fern – klein, langsam, dunkel
+		[34, 60.0, 0.08, 0.16, 0.70],   # mittel
+		[22, 95.0, 0.14, 0.24, 1.00],   # nah – groß, schnell, hell
+	]
+	for s in schichten:
+		var p = GPUParticles2D.new()
+		p.texture = stern_tex
+		p.amount = s[0]
+		p.lifetime = 760.0 / s[1]          # Flugzeit = Strecke / Geschwindigkeit
+		p.preprocess = p.lifetime           # sofort gefülltes Feld beim Start
+		p.local_coords = false
+		p.z_index = -9                      # über dem Farbnebel (-10), unter allem anderen
+
+		var mat = ParticleProcessMaterial.new()
+		mat.emission_shape = ParticleProcessMaterial.EMISSION_SHAPE_BOX
+		mat.emission_box_extents = Vector3(260, 1, 1)   # über volle Breite oben emittieren
+		mat.direction = Vector3(0, 1, 0)                # nach unten
+		mat.spread = 0.0
+		mat.gravity = Vector3(0, 0, 0)
+		mat.initial_velocity_min = s[1]
+		mat.initial_velocity_max = s[1] * 1.15
+		mat.scale_min = s[3] * 0.6
+		mat.scale_max = s[3]
+		var hell = s[4]
+		mat.color = Color(0.78 * hell, 0.84 * hell, 1.0 * hell, 1.0)
+		p.process_material = mat
+
+		# Emitter mittig oben positionieren (Box deckt die Breite ab)
+		p.position = Vector2(240, -10)
+		add_child(p)
 
 func _status_labels_erzeugen():
 	var ui = $UI
