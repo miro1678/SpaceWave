@@ -1,0 +1,34 @@
+name: Deploy SpaceWave zu Cloudflare
+
+# Läuft bei jedem Push auf den main-Branch
+on:
+  push:
+    branches:
+      - main
+  # Erlaubt auch manuelles Auslösen über den Actions-Tab
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: Build & Deploy
+    steps:
+      # 1) Repository auschecken
+      - name: Code holen
+        uses: actions/checkout@v4
+
+      # 2) "Build": index.html erzeugen und in den Deploy-Ordner legen
+      #    Es gibt keinen echten Kompilierschritt – die Spieldatei wird nur
+      #    nach dist/index.html kopiert, damit Cloudflare die Startseite findet.
+      - name: index.html erstellen
+        run: |
+          mkdir -p dist
+          cp spacewave.html dist/index.html
+
+      # 3) Deploy zu Cloudflare Workers (Static Assets)
+      - name: Zu Cloudflare deployen
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: deploy

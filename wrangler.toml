@@ -1,0 +1,10 @@
+name = "spacewave"
+compatibility_date = "2026-05-20"
+
+# Statische Dateien aus dem dist-Ordner ausliefern.
+# Hier liegt nach dem Build-Schritt die index.html.
+[assets]
+directory = "./dist"
+# 404-Anfragen bekommen die nächste 404.html (oder Standard-404).
+# Für ein einzelnes Spiel ist das ausreichend.
+not_found_handling = "404-page"
