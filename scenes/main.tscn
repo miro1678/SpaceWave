@@ -31,14 +31,12 @@ offset_bottom = 45.0
 theme_override_font_sizes/font_size = 22
 text = "Punkte: 0"
 
-[node name="LebenLabel" type="Label" parent="UI" unique_id=970753079]
+[node name="LebenLabel" type="HBoxContainer" parent="UI" unique_id=970753079]
 offset_left = 340.0
-offset_top = 10.0
+offset_top = 5.0
 offset_right = 470.0
 offset_bottom = 45.0
-theme_override_font_sizes/font_size = 22
-text = "❤❤❤"
-horizontal_alignment = 2
+alignment = 2
 
 [node name="WelleLabel" type="Label" parent="UI" unique_id=923396243]
 offset_left = 140.0

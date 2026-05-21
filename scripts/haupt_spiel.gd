@@ -1,5 +1,6 @@
 extends Node2D
 
+const HERZ_TEXTUR       = preload("res://assets/ui/herz.svg")
 const SPIELER_SZENE     = preload("res://scenes/spieler.tscn")
 const GEGNER_SZENE      = preload("res://scenes/gegner.tscn")
 const GESCHOSS_SZENE    = preload("res://scenes/geschoss.tscn")
@@ -595,7 +596,14 @@ func _game_over():
 
 func _ui_update():
 	punkte_label.text = "Punkte: %d" % punkte
-	leben_label.text  = "♥".repeat(leben)
+	for kind in leben_label.get_children():
+		kind.queue_free()
+	for i in leben:
+		var herz := TextureRect.new()
+		herz.texture = HERZ_TEXTUR
+		herz.custom_minimum_size = Vector2(28, 28)
+		herz.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+		leben_label.add_child(herz)
 	welle_label.text  = "Welle %d" % welle
 
 func _explosion_bei(pos: Vector2, farbe: Color, typ: String = "gegner"):
