@@ -440,21 +440,21 @@ func _status_ui_update():
 	# Doppel-Punkte
 	if doppel_label:
 		if doppelpunkte_aktiv:
-			doppel_label.text    = "✦ x2 PUNKTE  %.0fs" % doppelpunkte_timer
+			doppel_label.text    = "x2 PUNKTE  %.0fs" % doppelpunkte_timer
 			doppel_label.visible = true
 		else:
 			doppel_label.visible = false
 	# Chaos
 	if chaos_label:
 		if spieler and is_instance_valid(spieler) and spieler.chaos_aktiv:
-			chaos_label.text    = "↺ STEUERUNG VERTAUSCHT  %.0fs" % spieler.chaos_verbleibend()
+			chaos_label.text    = "STEUERUNG VERTAUSCHT  %.0fs" % spieler.chaos_verbleibend()
 			chaos_label.visible = true
 		else:
 			chaos_label.visible = false
 	# Mega
 	if mega_label:
 		if spieler and is_instance_valid(spieler) and spieler.mega_aktiv:
-			mega_label.text    = "★ MEGA-BOOST  %.0fs ★" % spieler.mega_verbleibend()
+			mega_label.text    = "MEGA-BOOST  %.0fs" % spieler.mega_verbleibend()
 			mega_label.visible = true
 		else:
 			mega_label.visible = false
