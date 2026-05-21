@@ -416,12 +416,42 @@ func _doppelpunkte_tick(delta: float):
 
 # ─── Status-Anzeige ───────────────────────────────────────────────────────────
 func _status_ui_update():
-	if boost_label:        boost_label.visible        = false
-	if schnellfeuer_label: schnellfeuer_label.visible = false
-	if zeitstopp_label:    zeitstopp_label.visible    = false
-	if doppel_label:       doppel_label.visible       = false
-	if chaos_label:        chaos_label.visible        = false
-	if mega_label:         mega_label.visible         = false
+	if boost_label:
+		if spieler and is_instance_valid(spieler) and spieler.boost_aktiv:
+			boost_label.text    = "TRIPLE SHOT  %.0fs" % spieler.boost_verbleibend()
+			boost_label.visible = true
+		else:
+			boost_label.visible = false
+	if schnellfeuer_label:
+		if spieler and is_instance_valid(spieler) and spieler.schnellfeuer_aktiv:
+			schnellfeuer_label.text    = "SCHNELLFEUER  %.0fs" % spieler.schnellfeuer_verbleibend()
+			schnellfeuer_label.visible = true
+		else:
+			schnellfeuer_label.visible = false
+	if zeitstopp_label:
+		if zeitstopp_aktiv:
+			zeitstopp_label.text    = "ZEITSTOPP  %.1fs" % zeitstopp_timer
+			zeitstopp_label.visible = true
+		else:
+			zeitstopp_label.visible = false
+	if doppel_label:
+		if doppelpunkte_aktiv:
+			doppel_label.text    = "x2 PUNKTE  %.0fs" % doppelpunkte_timer
+			doppel_label.visible = true
+		else:
+			doppel_label.visible = false
+	if chaos_label:
+		if spieler and is_instance_valid(spieler) and spieler.chaos_aktiv:
+			chaos_label.text    = "STEUERUNG VERTAUSCHT  %.0fs" % spieler.chaos_verbleibend()
+			chaos_label.visible = true
+		else:
+			chaos_label.visible = false
+	if mega_label:
+		if spieler and is_instance_valid(spieler) and spieler.mega_aktiv:
+			mega_label.text    = "MEGA-BOOST  %.0fs" % spieler.mega_verbleibend()
+			mega_label.visible = true
+		else:
+			mega_label.visible = false
 
 func _gegner_spawnen_tick(delta: float):
 	if gegner_gespawnt >= gegner_pro_welle: return
