@@ -1,6 +1,5 @@
 extends Node2D
 
-const HERZ_TEXTUR       = preload("res://assets/ui/herz.svg")
 const SPIELER_SZENE     = preload("res://scenes/spieler.tscn")
 const GEGNER_SZENE      = preload("res://scenes/gegner.tscn")
 const GESCHOSS_SZENE    = preload("res://scenes/geschoss.tscn")
@@ -66,6 +65,9 @@ var musik_player  : AudioStreamPlayer
 var game_over_sound : AudioStreamPlayer
 
 func _ready():
+	var herz_font = load("res://assets/fonts/symbole.ttf")
+	if herz_font:
+		leben_label.add_theme_font_override("font", herz_font)
 	neu_start_btn.pressed.connect(_neu_starten)
 
 	muenzen_layer = Node2D.new()
@@ -596,14 +598,7 @@ func _game_over():
 
 func _ui_update():
 	punkte_label.text = "Punkte: %d" % punkte
-	for kind in leben_label.get_children():
-		kind.queue_free()
-	for i in leben:
-		var herz := TextureRect.new()
-		herz.texture = HERZ_TEXTUR
-		herz.custom_minimum_size = Vector2(28, 28)
-		herz.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
-		leben_label.add_child(herz)
+	leben_label.text = "♥".repeat(leben)
 	welle_label.text  = "Welle %d" % welle
 
 func _explosion_bei(pos: Vector2, farbe: Color, typ: String = "gegner"):
