@@ -56,10 +56,8 @@ func _farbe_setzen():
 	if sprite:
 		sprite.modulate = FARBEN.get(typ, FARBEN[0])
 	# Marker nur bei speziellen Münzen einblenden
-	if totenkopf:
-		totenkopf.visible = (typ == TYP_TODESBOMBE)
-	if stern:
-		stern.visible = (typ == TYP_MEGA)
+	if totenkopf: totenkopf.visible = false
+	if stern:     stern.visible     = false
 
 func _process(delta: float):
 	position.y += geschwindigkeit * delta
