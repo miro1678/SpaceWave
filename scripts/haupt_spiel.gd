@@ -260,9 +260,7 @@ func _muenze_spawnen():
 	muenzen_layer.add_child(m)
 
 func _zufaelliger_powerup_typ() -> int:
-	# Gewichtete Auswahl. Todesbombe ist die gefährlichste Münze.
-	# Mega-Münze ist extrem selten und super stark.
-	# Chaos und Bombe sind ebenfalls selten. Triple bleibt das Brot-und-Butter-Power-Up.
+	
 	var r = randf()
 	if r < 0.01: return PU_MEGA          # 1 %  – Jackpot
 	if r < 0.13: return PU_TODESBOMBE    # 12 % – Game Over Falle
